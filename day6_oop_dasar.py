@@ -34,3 +34,9 @@ hero2.serang(hero1)
 print(hero1.__dict__)
 print(hero2.__dict__)
 print()
+
+
+hero2.serang(hero1)
+print(hero1.__dict__)
+print(hero2.__dict__)
+print()
