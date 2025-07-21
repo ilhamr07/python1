@@ -2,7 +2,6 @@ class Hero :
     def __init__(self, name, health):
         self.name = name
         self.health = health
-        
     
     def info(self):
         print("{}, {}".format(self.name, self.health))
@@ -10,6 +9,7 @@ class Hero :
 #inheritance class from Hero Class
 class Hero_strength(Hero):
     def __init__(self, name):
+        #super user for get init method from super class(Hero)
         super().__init__(name,100)
         super().info()
 
