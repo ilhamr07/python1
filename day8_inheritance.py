@@ -1,13 +1,15 @@
+#super Class
 class Hero:
 
     def __init__(self, name, health):
         self.name = name
         self.health = health
 
-#inheritance from Hero Class
+#inheritance class from Hero Class
 class Hero_strength(Hero):
     pass
 
+#inheritance class from Hero Class
 class Hero_agility(Hero):
     pass
 
